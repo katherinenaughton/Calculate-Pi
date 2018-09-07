@@ -21,3 +21,6 @@ The approximate value of pi is 3.1315929
 Note: remember that the printed value of pi will be an estimate!
 
 """
+
+print('I will estimate pi.')
+numterms=(input(print('How many decimal places should I use in the result?')))
