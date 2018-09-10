@@ -23,10 +23,10 @@ Note: remember that the printed value of pi will be an estimate!
 """
 
 print('I will estimate pi.')
-numterms=float(input('How many terms should I use? '))
-numdecimals=float(input('How many decimal places should I use in the result? '))
-from math import pi
-pi=pi
-x=[0:pi:7]
-print('The approximate value of pi is',  str(x)+'.')
+n=int(input('How many terms should I use? '))
+decimals=float(input('How many decimal places should I use in the result? '))
+import math
+pi=4sum([(-1.0**k/math.factorial(k) for k in range(0,n)]))
+
+print('(The approximate value of pi is {0})'.format(round( pi, decimals)))
 
