@@ -25,4 +25,8 @@ Note: remember that the printed value of pi will be an estimate!
 print('I will estimate pi.')
 numterms=float(input('How many terms should I use? '))
 numdecimals=float(input('How many decimal places should I use in the result? '))
-print('The approximate value of pi is'+str())
+from math import pi
+pi=pi
+x=[0:pi:7]
+print('The approximate value of pi is',  str(x)+'.')
+
