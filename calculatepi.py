@@ -23,4 +23,6 @@ Note: remember that the printed value of pi will be an estimate!
 """
 
 print('I will estimate pi.')
-numterms=(input(print('How many decimal places should I use in the result?')))
+numterms=float(input('How many terms should I use? '))
+numdecimals=float(input('How many decimal places should I use in the result? '))
+print('The approximate value of pi is'+str())
